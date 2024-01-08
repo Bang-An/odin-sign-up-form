@@ -1,0 +1,113 @@
+@font-face {
+    font-family: norse-bold;
+    src: url(./fonts/Norse-Bold.otf);
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.left-section{
+    height: 100vh;
+    width: 33vw;
+    background-image:url(./imgs/background-img.avif);
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.logo-container{
+    height: 150px;
+    margin-top: 200px;
+    background-color: rgb(60, 51, 51, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#odin-logo{
+    max-height: 100px;
+    max-width: 100px;
+}
+
+#logo-name{
+    font-family: norse-bold;
+    color: white;
+    font-size: 90px;
+    margin-top: 80px;
+}
+
+.right-section{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-top{
+    background-color: rgb(238, 236, 236);  
+    height: 40vh; 
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+#para-container{
+    padding: 30px;
+}
+
+#para{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.right-mid{
+    background-color: white;
+    height: 30vh;
+}
+
+#form-title{
+    font-size: 25px;
+    padding-left: 55px;
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 300px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.form>div{
+    padding: 10px;
+    
+}
+
+input, 
+label{
+    display: block;
+}
+
+input{
+    border-color: #E5E7EB;
+    border-radius: 5px;
+}
+
+.right-bot{
+    height: 30vh; 
+    background-color: rgb(238, 236, 236); 
+}
+
+#create-acc-button{
+    width: 200px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+#button-message{
+    margin-left: 30px;
+}
